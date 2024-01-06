@@ -9,7 +9,7 @@ double** Matrix::init_matrix(size_t size) {
 
 void Matrix::clear_matrix(double** m, size_t size) {
     for (size_t i = 0; i < size; i++)
-        delete[] m[size];
+        delete[] m[i];
     delete[] m;
 }
 
